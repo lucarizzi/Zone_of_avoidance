@@ -1,0 +1,23 @@
+\begin{thebibliography}{}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{{Makarov} {et~al.}(2006){Makarov}, {Makarova}, {Rizzi}, {Tully},
+  {Dolphin}, {Sakai}, \& {Shaya}}]{2006AJ....132.2729M}
+{Makarov}, D., {Makarova}, L., {Rizzi}, L., {et~al.} 2006, \aj, 132, 2729
+
+\bibitem[{{Rizzi} {et~al.}(2007){Rizzi}, {Tully}, {Makarov}, {Makarova},
+  {Dolphin}, {Sakai}, \& {Shaya}}]{2007ApJ...661..815R}
+{Rizzi}, L., {Tully}, R.~B., {Makarov}, D., {et~al.} 2007, \apj, 661, 815
+
+\bibitem[{{Sakai} {et~al.}(1996){Sakai}, {Madore}, \&
+  {Freedman}}]{1996ApJ...461..713S}
+{Sakai}, S., {Madore}, B.~F., \& {Freedman}, W.~L. 1996, \apj, 461, 713
+
+\bibitem[{{Schlafly} \& {Finkbeiner}(2011)}]{2011ApJ...737..103S}
+{Schlafly}, E.~F., \& {Finkbeiner}, D.~P. 2011, \apj, 737, 103
+
+\bibitem[{{Wu} {et~al.}(2014){Wu}, {Tully}, {Rizzi}, {Dolphin}, {Jacobs}, \&
+  {Karachentsev}}]{2014AJ....148....7W}
+{Wu}, P.-F., {Tully}, R.~B., {Rizzi}, L., {et~al.} 2014, \aj, 148, 7
+
+\end{thebibliography}

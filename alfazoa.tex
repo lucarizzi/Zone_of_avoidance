@@ -1,0 +1,364 @@
+%%
+%% Beginning of file 'sample.tex'
+%%
+%% Modified 2005 December 5
+%%
+%% This is a sample manuscript marked up using the
+%% AASTeX v5.x LaTeX 2e macros.
+
+%% The first piece of markup in an AASTeX v5.x document
+%% is the \documentclass command. LaTeX will ignore
+%% any data that comes before this command.
+
+%% The command below calls the preprint style
+%% which will produce a one-column, single-spaced document.
+%% Examples of commands for other substyles follow. Use
+%% whichever is most appropriate for your purposes.
+%%
+%%\documentclass[12pt,preprint]{aastex}
+
+%% manuscript produces a one-column, double-spaced document:
+
+\documentclass[12,manuscript,usenatbib]{aastex}
+\usepackage{amsmath}
+
+%% preprint2 produces a double-column, single-spaced document:
+
+%% \documentclass[preprint2]{aastex}
+
+%% Sometimes a paper's abstract is too long to fit on the
+%% title page in preprint2 mode. When that is the case,
+%% use the longabstract style option.
+
+%% \documentclass[preprint2,longabstract]{aastex}
+
+%% If you want to create your own macros, you can do so
+%% using \newcommand. Your macros should appear before
+%% the \begin{document} command.
+%%
+%% If you are submitting to a journal that translates manuscripts
+%% into SGML, you need to follow certain guidelines when preparing
+%% your macros. See the AASTeX v5.x Author Guide
+%% for information.
+
+\newcommand{\vdag}{(v)^\dagger}
+\newcommand{\myemail}{lrizzi@keck.hawaii.edu}
+
+%% You can insert a short comment on the title page using the command below.
+
+\slugcomment{Not to appear in Nonlearned J., 45.}
+
+%% If you wish, you may supply running head information, although
+%% this information may be modified by the editorial offices.
+%% The left head contains a list of authors,
+%% usually a maximum of three (otherwise use et al.).  The right
+%% head is a modified title of up to roughly 44 characters.
+%% Running heads will not print in the manuscript style.
+
+\shorttitle{Distance to ALFAZOA}
+\shortauthors{Rizzi et al.}
+
+%% This is the end of the preamble.  Indicate the beginning of the
+%% paper itself with \begin{document}.
+
+\begin{document}
+
+%% LaTeX will automatically break titles if they run longer than
+%% one line. However, you may use \\ to force a line break if
+%% you desire.
+
+\title{The Distance to the ALFAZOAJ1952+1428 and KK246 galaxies.}
+
+%% Use \author, \affil, and the \and command to format
+%% author and affiliation information.
+%% Note that \email has replaced the old \authoremail command
+%% from AASTeX v4.0. You can use \email to mark an email address
+%% anywhere in the paper, not just in the front matter.
+%% As in the title, use \\ to force line breaks.
+
+\author{L. Rizzi}
+\affil{W. M. Keck Observatory, Kamuela, HI 96743}
+\email{lrizzi@keck.hawaii.edu}
+
+\and
+
+\author{R. B. Tully}
+\affil{Institute for Astronomy, University of Hawaii, Honolulu, HI 96822}
+
+\and
+
+
+\author{E. J. Shaya}
+\affil{University of Maryland, Astronomy Department, College Park, MD 20743}
+
+
+%% Mark off your abstract in the ``abstract'' environment. In the manuscript
+%% style, abstract will output a Received/Accepted line after the
+%% title and affiliation information. No date will appear since the author
+%% does not have this information. The dates will be filled in by the
+%% editorial office after submission.
+
+\begin{abstract}
+TBD
+\end{abstract}
+
+%% Keywords should appear after the \end{abstract} command. The uncommented
+%% example has been keyed in ApJ style. See the instructions to authors
+%% for the journal to which you are submitting your paper to determine
+%% what keyword punctuation is appropriate.
+
+\keywords{TBD}
+
+%% From the front matter, we move on to the body of the paper.
+%% In the first two sections, notice the use of the natbib \citep
+%% and \citet commands to identify citations.  The citations are
+%% tied to the reference list via symbolic KEYs. The KEY corresponds
+%% to the KEY in the \bibitem in the reference list below. We have
+%% chosen the first three characters of the first author's name plus
+%% the last two numeral of the year of publication as our KEY for
+%% each reference.
+
+
+%% Authors who wish to have the most important objects in their paper
+%% linked in the electronic edition to a data center may do so by tagging
+%% their objects with \objectname{} or \object{}.  Each macro takes the
+%% object name as its required argument. The optional, square-bracket 
+%% argument should be used in cases where the data center identification
+%% differs from what is to be printed in the paper.  The text appearing 
+%% in curly braces is what will appear in print in the published paper. 
+%% If the object name is recognized by the data centers, it will be linked
+%% in the electronic edition to the object data available at the data centers  
+%%
+%% Note that for sources with brackets in their names, e.g. [WEG2004] 14h-090,
+%% the brackets must be escaped with backslashes when used in the first
+%% square-bracket argument, for instance, \object[\[WEG2004\] 14h-090]{90}).
+%%  Otherwise, LaTeX will issue an error. 
+
+\section{Introduction}
+
+TBD
+
+\section{Observations}
+
+%% In a manner similar to \objectname authors can provide links to dataset
+%% hosted at participating data centers via the \dataset{} command.  The
+%% second curly bracket argument is printed in the text while the first
+%% parentheses argument serves as the valid data set identifier.  Large
+%% lists of data set are best provided in a table (see Table 3 for an example).
+%% Valid data set identifiers should be obtained from the data center that
+%% is currently hosting the data.
+%%
+%% Note that AASTeX interprets everything between the curly braces in the 
+%% macro as regular text, so any special characters, e.g. "#" or "_," must be 
+%% preceded by a backslash. Otherwise, you will get a LaTeX error when you 
+%% compile your manuscript.  Special characters do not 
+%% need to be escaped in the optional, square-bracket argument.
+
+TBD
+%% In this section, we use  the \subsection command to set off
+%% a subsection.  \footnote is used to insert a footnote to the text.
+
+%% Observe the use of the LaTeX \label
+%% command after the \subsection to give a symbolic KEY to the
+%% subsection for cross-referencing in a \ref command.
+%% You can use LaTeX's \ref and \label commands to keep track of
+%% cross-references to sections, equations, tables, and figures.
+%% That way, if you change the order of any elements, LaTeX will
+%% automatically renumber them.
+
+%% This section also includes several of the displayed math environments
+%% mentioned in the Author Guide.
+
+\section{Tip of the Red Giant Branch}
+
+We derive the magnitude of the TRGB following the method described in \citet{2006AJ....132.2729M}. A parametric luminosity function is defined as:
+
+\begin{equation}
+ \psi = \left\{ \begin{array}{lr}
+                 10^{a(m-m_{TRGB})+b}, & m - m_{TRGB} \ge 0, \\
+                 10^{c(m-m_{TRGB})},   & m - m_{TRGB} < 0.
+                \end{array} \right.
+\end{equation}
+
+This  function is then convolved with the completeness, uncertainty and photometric bias observational effects:
+
+\begin{equation}
+ \varphi(m) = \int \psi(m') \rho(m') e(m|m')dm',
+\end{equation}
+
+where $\rho(m)$ is the completeness as a function of magnitude and $e(m|m')$ is the error distribution function, both derived from artificial star tests. The error distribution function contains photometric uncertainty and photometric bias:
+
+\begin{equation}
+e(m|m') = \frac{1}{\sqrt{2\pi}\sigma(m')} \exp \left\{ - \frac{[m - \bar{m}(m')]^2}{2\sigma^2(m')} \right\},
+\end{equation}
+
+where $\sigma(m)$ is the uncertainty and $(\bar m)$ is the bias. 
+
+To avoid uncertainties related to the choice of magnitude bins in determining the observed luminosity function, we construct a smoothed luminosity function following the prescription of \citet{1996ApJ...461..713S}. In summary, the discretely distributed stellar magnitudes are replaced by their corresponding Gaussian, following the expression:
+\begin{equation}
+\phi(m) = \sum_{i=1}^{N} \frac{1}{\sqrt{2\pi}\sigma_{i}} \exp \left\{ - \frac{(m_i-m)^2}{2\sigma_i^2}\right\},
+\end{equation}
+
+The first guess for the position of the TRGB is obtained by applying a Sobel edge-detection filter to the smoothed luminosity function.
+
+
+\section{Equations used}
+\subsection{Reddening}
+Equations are from \citet{2011ApJ...737..103S}.
+
+\begin{equation}
+A_{F814W} = 1.526 E(B-V)
+\end{equation}
+\begin{equation}
+A_{F606W} = 2.488 E(B-V)
+\end{equation}
+\begin{equation}
+A_{F110W} = 0.881E(B-V)
+\end{equation}
+\begin{equation}
+A_{F160W} = 0.512 E(B-V)
+\end{equation}
+
+Derived from previous equations:
+
+\begin{equation}
+E(F110W-F160W) = 0.369 E(B-V)
+\end{equation}
+\begin{equation}
+E(F606W-F814W) = 0.962 E(B-V)
+\end{equation}
+
+\subsection{Absolute magnitudes of TRGB}
+Equations derived from \cite{2007ApJ...661..815R}.
+
+\begin{equation}
+M_{F814W} = -4.06 + 0.20 [(F606W-F814W) -1.23]
+\end{equation}
+
+Equations derived from \citet{2014AJ....148....7W}.
+\begin{equation}
+M_{F110W}=\left\{\begin{matrix}
+-5.02 -1.41 \times [(F110W-F160W)-0.95], F110W-F160W \leqslant 0.95,
+\\ 
+-5.02 -2.81 \times[(F110W-F160W)-0.95], F110W-F160W > 0.95
+\end{matrix}\right.
+\end{equation}
+
+\begin{equation}
+M_{F160W}=\left\{\begin{matrix}
+-5.97 -2.41 \times [(F110W-F160W)-0.95], F110W-F160W \leqslant 0.95,
+\\ 
+-5.97 -3.81 \times[(F110W-F160W)-0.95], F110W-F160W > 0.95
+\end{matrix}\right.
+\end{equation}
+
+
+
+
+\section{Results for ALFAZOAJ1952+1428}
+
+\begin{equation}
+F814W_{TRGB}=25.91 \pm 0.09 \\
+\end{equation}
+\begin{equation}
+(F814W-F606W)_{TRGB}=1.34 \pm 0.08
+\end{equation}
+\begin{equation}
+E(B-V): 0.28
+\end{equation}
+\begin{equation}
+F814W_{TRGB,0} = 25.49
+\end{equation}
+\begin{equation}
+F814W_{Absolute} = -4.038
+\end{equation}
+\begin{equation}
+(m-M)_0=29.53
+\end{equation}
+
+\begin{figure}
+\epsscale{.80}
+\plotone{cmd_ALPHAZOA.eps}
+\caption{Color magnitude diagram.\label{cmd1}}
+\end{figure}
+
+\begin{figure}
+\epsscale{.80}
+\plotone{lf_ALPHAZOA.eps}
+\caption{Measurement of the tip.\label{lf1}}
+\end{figure}
+
+\begin{figure}
+\epsscale{.80}
+\plotone{reddening_ALPHAZOA.eps}
+\caption{Reddening measurements.\label{reddening1}}
+\end{figure}
+
+\subsection{Results for KK246}
+
+\begin{equation}
+F110W_{TRGB}=24.92 \pm 0.06
+\end{equation}
+\begin{equation}
+F160W_{TRGB}=23.84 \pm 0.03
+\end{equation}
+\begin{equation}
+(F110W-F160W)_{TRGB}=0.86 \pm 0.09
+\end{equation}
+\begin{equation}
+E(B-V): 0.67
+\end{equation}
+\begin{equation}
+F110W_{TRGB,0} = 24.33
+\end{equation}
+\begin{equation}
+F160W_{TRGB,0} = 23.50
+\end{equation}
+\begin{equation}
+F110W_{Absolute} = -4.93
+\end{equation}
+\begin{equation}
+F160W_{Absolute} = -5.81
+\end{equation}
+\begin{equation}
+(m-M)_{F110W,0}=29.26
+\end{equation}
+\begin{equation}
+(m-M)_{F160W,0}=29.31
+\end{equation}
+
+\begin{figure}
+\epsscale{.80}
+\plottwo{cmd_KK246_J.eps} {cmd_KK246_H.eps}
+\caption{Color magnitude diagram.\label{cmd2}}
+\end{figure}
+
+\begin{figure}
+\epsscale{.80}
+\plotone{lf_KK246_J.eps}
+\caption{Measurement of the tip in F110W.\label{lf2_1}}
+\end{figure}
+
+\begin{figure}
+\epsscale{.80}
+\plotone{lf_KK246_H.eps}
+\caption{Measurement of the tip in F160W.\label{lf2_2}}
+\end{figure}
+
+
+\begin{figure}
+\epsscale{.80}
+\plotone{reddening_KK246.eps}
+\caption{Reddening measurements.\label{reddening2}}
+\end{figure}
+
+
+
+\bibliography{alfazoa}
+\bibliographystyle{apj}
+
+
+\end{document}
+
+%%
+%% End of file `sample.tex'.

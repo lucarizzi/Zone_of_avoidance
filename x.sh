@@ -1,0 +1,11 @@
+mv alfazoa.ps alfazoa.eps
+mv cmd_KK246.ps cmd_KK246.eps
+mv cmd_KK246_H.ps cmd_KK246_H.eps
+mv cmd_KK246_J.ps cmd_KK246_J.eps
+mv lf_ALPHAZOA.ps lf_ALPHAZOA.eps
+mv lf_H.ps lf_H.eps
+mv lf_J.ps lf_J.eps
+mv lf_KK246_H.ps lf_KK246_H.eps
+mv lf_KK246_J.ps lf_KK246_J.eps
+mv reddening_ALPHAZOA.ps reddening_ALPHAZOA.eps
+mv reddening_KK246.ps reddening_KK246.eps
