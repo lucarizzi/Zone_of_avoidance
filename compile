@@ -2,4 +2,4 @@ latex alfazoa.tex
 bibtex alfazoa
 latex alfazoa
 latex alfazoa
-dvips alfazoa.dvi -o alfazoa.ps
+dvipdf alfazoa.dvi alfazoa.pdf

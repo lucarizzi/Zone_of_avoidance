@@ -1,5 +1,5 @@
-latex alfazoa_lr1.tex
-bibtex alfazoa_lr1
-latex alfazoa_lr1
-latex alfazoa_lr1
-dvips alfazoa_lr1.dvi -o alfazoa_lr1.ps
+latex alfazoa.tex
+bibtex alfazoa
+latex alfazoa
+latex alfazoa
+dvipdf alfazoa.dvi -o alfazoa.ps
