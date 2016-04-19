@@ -1,0 +1,12 @@
+cp ../notebooks/alfazoa.ps alfazoa.eps
+cp ../notebooks/cmd_ALPHAZOA.ps cmd_ALPHAZOA.eps
+cp ../notebooks/cmd_KK246.ps cmd_KK246.eps
+cp ../notebooks/cmd_KK246_H.ps cmd_KK246_H.eps
+cp ../notebooks/cmd_KK246_J.ps cmd_KK246_J.eps
+cp ../notebooks/lf_ALPHAZOA.ps lf_ALPHAZOA.eps
+cp ../notebooks/lf_H.ps lf_H.eps
+cp ../notebooks/lf_J.ps lf_J.eps
+cp ../notebooks/lf_KK246_H.ps lf_KK246_H.eps
+cp ../notebooks/lf_KK246_J.ps lf_KK246_J.eps
+cp ../notebooks/reddening_ALPHAZOA.ps reddening_ALPHAZOA.eps
+cp ../notebooks/reddening_KK246.ps reddening_KK246.eps
